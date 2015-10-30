@@ -23,6 +23,20 @@ $block_padding_small: 5.5rem 0;
     padding: $block_padding;
 }
 
+@mixin link_style($color, $hover){
+    a {
+        color: $color; 
+
+        &:link, &:visited {
+            color: $color; 
+        }
+
+        &:hover {
+            color: $color; 
+        }
+    }
+}
+
 html {
     font-size:62.5%; //make 1rem = 10px
 }
@@ -45,16 +59,33 @@ html {
     .header-wrap {
         background: rgba($black,0.5);
         color: $white;
+        padding: 3rem 0;
+
+        .row {
+            display: flex; 
+            align-items: flex-end;
+        }
     }
 
     h1, h2 {
         color: $white; 
+        font-size: 1.8rem;
     }
 
     nav {
+
+        @include link_style($white, $white);
+
+        ul {
+            display: flex; 
+            justify-content: space-between;
+            margin: 0;
+        }
+
         li {
             display:inline-block; 
             list-style:none;
+            font-size: 1.8rem;
         } 
     }
 }
@@ -142,5 +173,20 @@ html {
     p {
         font-size: $block_text_font_size; 
         line-height:$block_text_font_size;
+    }
+}
+
+#footer {
+    background: $dark-grey;
+    padding: $block_padding_small;   
+    color: $white;
+    @include link_style($white, $white);
+
+    li {
+        list-style: none; 
+    }
+
+    h5 {
+        color: $white; 
     }
 }
