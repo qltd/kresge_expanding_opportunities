@@ -1,0 +1,20 @@
+
+#our_work_image {
+    background: url('../images/veggies.jpg') no-repeat;
+    background-size: cover;
+    min-height: 93.1rem;
+}
+
+#our_work {
+    @include banner_styles($green,$white);
+
+    h2 {
+        font-size: $block_heading_font_size;
+        color: $white;
+    }
+
+    p {
+        font-size: $block_text_font_size; 
+        line-height:$block_text_font_size;
+    }
+}

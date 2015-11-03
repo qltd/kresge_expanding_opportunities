@@ -1,0 +1,15 @@
+
+#footer {
+    background: $dark-grey;
+    padding: $block_padding_small;   
+    color: $white;
+    @include link_style($white, $white);
+
+    li {
+        list-style: none; 
+    }
+
+    h5 {
+        color: $white; 
+    }
+}
