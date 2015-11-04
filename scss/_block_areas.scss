@@ -3,6 +3,8 @@
 
    h3 {
        @include small_heading_style($dark-grey);
+       font-weight: bold;
+       margin-bottom: 5rem;
    } 
 }
 
@@ -13,6 +15,8 @@
 
    h3 {
        @include small_heading_style($white);
+       font-weight: bold;
+       margin-bottom: 5rem;
    } 
 
    .fast-fact-icon {

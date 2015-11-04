@@ -20,6 +20,9 @@
 
 html {
     font-size:62.5%; //make 1rem = 10px
+}
+
+body, h1, h2, h3, h4, h5, h6, li, p {
     font-family: 'metaplusregular';
 }
 
@@ -36,18 +39,31 @@ html {
 #main {
     h4 {
         font-size: 4rem; 
+        font-weight: bold;
+    }
+
+    ul {
+        margin-left: 0; 
     }
 
     li {
         font-size: 1.6rem; 
+        list-style:none;
+        font-style: italic;
     }
 
     p {
         font-size: 2.2rem; 
+        line-height: 2.2rem;
+        font-family: 'minion-pro';
+    }
+
+    a {
+        font-family: 'metaplusregular';
     }
 
     .large-12.columns {
-        padding: 6rem 4rem; 
+        padding: 6rem; 
     }
 
     .first-main-row {
