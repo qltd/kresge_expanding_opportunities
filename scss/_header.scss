@@ -1,4 +1,3 @@
-
 #header {
     background: url('../images/expanding-opportunities-masthead.jpg') no-repeat;
     background-size: cover;
@@ -39,6 +38,30 @@
             display:inline-block; 
             list-style:none;
             font-size: 1.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
         } 
     }
+
+    .parent {
+        position: relative; 
+
+        .child {
+            position: absolute;     
+            //visibility: hidden;
+            background: $dark-grey;
+            display:block;
+
+            li {
+                display: block; 
+            }
+        }
+
+        &:hover {
+            .child {
+                visibility: visible;; 
+            }
+        }
+    }
+
 }
