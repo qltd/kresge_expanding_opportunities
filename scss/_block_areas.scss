@@ -14,9 +14,10 @@
    padding: $block_padding_small;   
 
    h3 {
-       @include small_heading_style($white);
-       font-weight: bold;
+       font-size: $block_heading_font_size;
+       color: $white; 
        margin-bottom: 5rem;
+       text-align: center;
    } 
 
    .fast-fact-icon {
@@ -38,6 +39,16 @@
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
+        transition: all 0.5s ease;
+
+        &:hover {
+            background: darken($sky-blue,10%); 
+
+            .fast-fact-content {
+                position:relative; 
+                top:-0.5rem;
+            }
+        }
    }
 }
 

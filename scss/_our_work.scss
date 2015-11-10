@@ -28,6 +28,11 @@
     .large-3 {
         p {
             font-weight: bold; 
+            font-size:3rem;
+
+            &:last-child {
+                padding-top: 4rem; 
+            }
         } 
     }
 }

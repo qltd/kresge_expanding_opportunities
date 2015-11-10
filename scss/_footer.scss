@@ -15,6 +15,7 @@
         list-style: none; 
         font-size: 1.4rem;
         display: inline-block;
+        text-align: left;
     }
 
     h4 {
@@ -42,6 +43,10 @@
             @include link_style($med-grey, $white);
             margin: 1rem;
         }
+    }
+
+    .large-3.columns {
+        text-align: left; 
     }
 
     .way-down-links {
