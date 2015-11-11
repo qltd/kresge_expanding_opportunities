@@ -43,25 +43,17 @@
         } 
     }
 
-    .parent {
-        position: relative; 
 
-        .child {
-            position: absolute;     
-            //visibility: hidden;
-            background: $dark-grey;
-            display:block;
+}
 
-            li {
-                display: block; 
-            }
-        }
+.child {
+    @include link_style($white, $white);
+    position: absolute;     
+    //visibility: hidden;
+    background: $dark-grey;
+    display:block;
 
-        &:hover {
-            .child {
-                visibility: visible;; 
-            }
-        }
+    li {
+        display: block; 
     }
-
 }
