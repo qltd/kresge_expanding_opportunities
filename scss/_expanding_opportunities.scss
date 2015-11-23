@@ -67,16 +67,54 @@ body, h1, h2, h3, h4, h5, h6, li, p {
     }
 
     .first-main-row {
-        background: url('../images/bowling.jpg') no-repeat; 
-        background-size: contain;
-        background-position: right;
+
+        .bg1 {
+            background: url('../images/bowling.jpg') no-repeat; 
+            min-height: 63.6rem;
+        }
+
     }
 
     .second-main-row {
-        background: url('../images/smile.jpg') no-repeat; 
-        background-size: contain;
+
+        .bg2 {
+            background: url('../images/smile.jpg') no-repeat; 
+            min-height: 63.6rem;
+            background-position: center;
+        }
+
     }
 }
 
+@media (max-width: 1024px){
+    #main {
 
+        .first-main-row {
+            background: url('../images/bowling.jpg') no-repeat; 
+            background-size: cover;
+            
+            .bg1 {
+                display:none;
+            }
+
+            .large-6.columns {
+                background: rgba($white, 0.8); 
+            }
+
+        }
+
+        .second-main-row {
+            background: url('../images/smile.jpg') no-repeat; 
+            background-size: cover;
+
+            .bg2 {
+                display:none;
+            }
+
+            .large-6.columns {
+                background: rgba($white, 0.8); 
+            }
+        }
+    }
+}
 
