@@ -108,6 +108,30 @@
     }
 }
 
+.box7 {
+    background: url('../images/program-images-1024-social-investing.png') no-repeat;
+
+    .ibox-header {
+        background: $blue; 
+    }
+
+    .ibox-content {
+        background: $blue; 
+    }
+}
+
+.box8 {
+    background: url('../images/program-images-1024-americas-cities.png') no-repeat;
+
+    .ibox-header {
+        background: $blue; 
+    }
+
+    .ibox-content {
+        background: $blue; 
+    }
+}
+
 @media (min-width: 1024px){
     //only affects screens size 1024px and larger
     .ibox-wrap {
