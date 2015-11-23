@@ -37,7 +37,7 @@
 }
 
 .box1 {
-    background: url('../images/box1.jpg') no-repeat;
+    background: url('../images/program-images-1024-americas-cities.png') no-repeat;
 
     .ibox-header {
         background: $red; 
@@ -49,7 +49,7 @@
 }
 
 .box2 {
-    background: url('../images/box2.jpg') no-repeat;
+    background: url('../images/program-images-1024-detroit.png') no-repeat;
 
     .ibox-header {
         background: $orange-brown; 
@@ -61,7 +61,7 @@
 }
 
 .box3 {
-    background: url('../images/box3.jpg') no-repeat;
+    background: url('../images/program-images-1024-education.png') no-repeat;
 
     .ibox-header {
         background: $purple; 
@@ -73,7 +73,7 @@
 }
 
 .box4 {
-    background: url('../images/box4.jpg') no-repeat;
+    background: url('../images/program-images-1024-social-investing.png') no-repeat;
 
     .ibox-header {
         background: $teal; 
@@ -85,7 +85,7 @@
 }
 
 .box5 {
-    background: url('../images/box5.jpg') no-repeat;
+    background: url('../images/program-images-1024-human-services.png') no-repeat;
 
     .ibox-header {
         background: $yellow; 
@@ -97,7 +97,7 @@
 }
 
 .box6 {
-    background: url('../images/box6.jpg') no-repeat;
+    background: url('../images/program-images-1024-environment.png') no-repeat;
 
     .ibox-header {
         background: $green; 
@@ -105,5 +105,12 @@
 
     .ibox-content {
         background: $green; 
+    }
+}
+
+@media (min-width: 1024px){
+    //only affects screens size 1024px and larger
+    .ibox-wrap {
+        background-position: center; 
     }
 }
