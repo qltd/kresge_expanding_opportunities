@@ -60,6 +60,15 @@ body, h1, h2, h3, h4, h5, h6, li, p {
 
     a {
         font-family: 'metaplusregular';
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.4rem;
+        color: $light-blue;
+
+        &:after {
+            content: " \f101";
+            font-family: FontAwesome;
+        }
     }
 
     .large-12.columns {
