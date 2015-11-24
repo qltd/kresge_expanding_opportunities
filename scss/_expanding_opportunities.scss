@@ -78,8 +78,9 @@ body, h1, h2, h3, h4, h5, h6, li, p {
     .first-main-row {
 
         .bg1 {
-            background: url('../images/bowling.jpg') no-repeat; 
-            min-height: 63.6rem;
+            background: url('../images/hug.jpg') no-repeat; 
+            background-position: center;
+            min-height: 74rem;
         }
 
     }
@@ -87,8 +88,8 @@ body, h1, h2, h3, h4, h5, h6, li, p {
     .second-main-row {
 
         .bg2 {
-            background: url('../images/smile.jpg') no-repeat; 
-            min-height: 63.6rem;
+            background: url('../images/garden.jpg') no-repeat; 
+            min-height: 71rem;
             background-position: center;
         }
 
@@ -99,7 +100,7 @@ body, h1, h2, h3, h4, h5, h6, li, p {
     #main {
 
         .first-main-row {
-            background: url('../images/bowling.jpg') no-repeat; 
+            background: url('../images/hug.jpg') no-repeat; 
             background-size: cover;
             
             .bg1 {
@@ -113,7 +114,7 @@ body, h1, h2, h3, h4, h5, h6, li, p {
         }
 
         .second-main-row {
-            background: url('../images/smile.jpg') no-repeat; 
+            background: url('../images/garden.jpg') no-repeat; 
             background-size: cover;
 
             .bg2 {
